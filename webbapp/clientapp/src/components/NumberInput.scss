@@ -1,0 +1,11 @@
+#number-input{
+    color: #808080;
+}
+#number-input-label{
+    &[data-shrink=false], &:not(.Mui-focused) {
+        color: white
+    }
+}
+.MuiFilledInput-root:before{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63) !important;
+}

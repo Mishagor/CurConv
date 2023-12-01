@@ -1,0 +1,10 @@
+
+.answer-text{
+    &.error{
+        background: #d25858;
+        color: white;
+        border-radius: 6px;
+        font-size: 20px;
+        padding: 5px 30px
+    }
+}
