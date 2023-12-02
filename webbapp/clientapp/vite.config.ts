@@ -25,8 +25,9 @@ export default defineConfig({
     base: '/app',
     server: {      
         https: {
-            key: fs.readFileSync(keyFilePath),
-            cert: fs.readFileSync(certFilePath),
+            // required for development only: set keyFilePath adn certFilePath to your self signed cert.
+//             key: fs.readFileSync(keyFilePath),
+//            cert: fs.readFileSync(certFilePath),
         },
         proxy: {
             '^/api': {
